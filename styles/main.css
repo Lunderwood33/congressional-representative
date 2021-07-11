@@ -7,6 +7,8 @@ header {
     align-items: center;
     background: transparent;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
     
 }
 
@@ -47,13 +49,12 @@ header {
 body {
     background-color: rgb(5, 5, 85);
     background-position-y: center;
-    padding-bottom: 4px;
 }
 
 .personalInfo {
     color: white;
     background-color: rgb(210, 109, 79);
-    
+    padding-bottom: 5px;
 }
 
 .committees {
@@ -73,6 +74,6 @@ body {
 .links {
     background-color: gray;
     color: white;
-    /* padding-bottom: 4px;
-    padding-top: 2px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
