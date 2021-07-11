@@ -1,19 +1,41 @@
 
 header {
-    color: rgb(238, 8, 8);
+    color: goldenrod;
+    
+}
+
+.marsha {
+    image-rendering: optimizeQuality;
 }
 
 body {
-    background-image: url(https://ak.picdn.net/shutterstock/videos/1867543/thumb/1.jpg);
-    background-image: no-repeat;
-    background-color: darkgrey;
+    background-color: rgb(5, 5, 85);
     background-position-y: center;
 }
 
-
-
-
-
-.links {
+.personalInfo {
+    color: white;
+    background-color: rgb(210, 109, 79);
     
+}
+
+.committees {
+    color: white;
+    background-color: teal;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+.link:hover {
+    color: goldenrod;
+    text-align: center;
+    background-color: goldenrod;
+    
+}
+.links {
+    background-color: gray;
+    color: white;
+    /* padding-bottom: 4px;
+    padding-top: 2px; */
 }
