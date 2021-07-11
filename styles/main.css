@@ -1,16 +1,53 @@
 
 header {
     color: goldenrod;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.animated {
+    
+    font-size: 45px;
+    font-weight: 900;
+    text-decoration: none;
+    background: linearGradient(to right, rgb(17, 214, 17) 50%, #FF5858 50%, #CC2E5D);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color:  rgb(210, 109, 79); */
+    transition: 1s ease-out;
+}
+
+.animated:hover {
+    background-position: -100%;
+    color: goldenrod;
+    text-align: right;
+}
+
+.transition {
+    transition: 2s ease-out;
 }
 
 .marsha {
     image-rendering: optimizeQuality;
+    padding-bottom: 4px;
 }
 
 body {
     background-color: rgb(5, 5, 85);
     background-position-y: center;
+    padding-bottom: 4px;
 }
 
 .personalInfo {
